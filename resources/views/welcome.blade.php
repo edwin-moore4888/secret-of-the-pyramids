@@ -20,15 +20,27 @@
                 background: url('images/egyptian-pyramids-thumbnail.jpeg') no-repeat center center fixed;
                 background-size: cover;
                 display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 color: rgb(219, 152, 64);
                 font-size: 30px;
+            }
+
+            button {
+                background: transparent;
+                font-size: 25px;
+                color: rgb(219, 152, 64); 
+            }
+
+            button:hover {
+                color: rgb(5, 5, 71)
             }
         </style>
     </head>
     <body class="antialiased">
         <h1>Secret of the Pyramids
         </h1>
+        <button>Start Game</button>
     </body>
 </html>
